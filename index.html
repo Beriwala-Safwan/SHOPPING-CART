@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="shopping-cart">
+        <h1>Shopping Cart</h1>
+        <div class="cart-items" id="cartItems">
+            <div class="cart-item" data-id="1">
+                <img src="https://img.freepik.com/free-vector/realistic-ad-with-product-landing-page_52683-70960.jpg?t=st=1727948284~exp=1727951884~hmac=0c8674405b13e257b242a7cb1cb45030ea0c72abf07621059b174e0473f3f7a4&w=826" alt="Product 1" class="product-image">
+                <h3>Product 1</h3>
+                <p>Price: $10</p>
+                <div class="quantity-control">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="remove">Remove</button>
+            </div>
+            <div class="cart-item" data-id="2">
+                <img src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-square-banner-template-design_505751-2856.jpg?t=st=1727948318~exp=1727951918~hmac=00acdac639bead6484371a9c6cbdfb9ab3423da4d3a78bb5df6abe87204f38d3&w=740" alt="Product 2" class="product-image">
+                <h3>Product 2</h3>
+                <p>Price: $20</p>
+                <div class="quantity-control">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+                <button class="remove">Remove</button>
+            </div>
+           
+        </div>
+        <div class="total" id="total">Total Price is:</div>
+        <div id="emptyMessage" style="display: none;">Cart is empty</div> 
+        
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
+
